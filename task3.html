@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cfa1d58969.js" crossorigin="anonymous"></script>
+    <title>2일차 숙제</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        div {
+            box-sizing: border-box;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .container {
+            width: 300px;
+            height: auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin: 30px
+        }
+
+        .top {
+            width: 300px;
+            margin: 0px auto;
+            height: 150px;
+            padding: 10px;
+            font-weight: bold;
+            border: 1px solid rgb(121, 121, 121);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .top i {
+            font-size: 14px;
+            margin-right: 10px;
+            margin-top: 2px;
+        }
+
+        .top .impect {
+            color: purple;
+        }
+
+        .address {
+            width: auto;
+            height: 50px;
+            border: 3px solid purple;
+            border-radius: 5px;
+            color: purple;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .middle {
+            border-bottom: solid rgb(121, 121, 121);
+            background-color: gray;
+            width: 300px;
+            margin: 0px auto;
+        }
+
+        .price {
+            padding: 10px;
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .button{
+            margin: 20px;
+            width: 300px;
+            height: 60px;
+            border-radius: 3px;
+            background-color: rgb(211, 209, 209);
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .desc{
+            flex-wrap: wrap;
+            font-size: 11px;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="delivery"></span><i class="fa-solid fa-location-dot"></i> 배송지</div>
+            <div class="deldesc">
+                <p><span class="impect">배송지를 등록</span>하고</p>
+                <p>구매 가능한 상품을 확인하세요!</p>
+            </div>
+            <div class="address"><i class="fa-solid fa-magnifying-glass"></i> 주소 검색</div>
+        </div>
+        <div class="middle">
+            <div class="price">
+                <p>상품금액</p>
+                <p>0원</p>
+            </div>
+            <div class="price">
+                <p>상품금액</p>
+                <p>0원</p>
+            </div>
+            <div class="price">
+                <p>상품금액</p>
+                <p>0원</p>
+            </div>
+
+        </div>
+        <div class="middle">
+            <div class="price">
+                <p>결제예정금액</p>
+                <p>0원</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="button">상품을 담아주세요</div>
+        </div>
+        <div class="desc">
+            <ul>
+                <li>[주문완료] 상태일 경우에만 주문 취소 가능합니다.</li>
+                <li>[마이컬리 > 주문내역 상세페이지]에서 직접 취소하실 수 있습니다.</li>
+        </ul>
+        </div>
+    </div>
+</body>
+
+</html>
